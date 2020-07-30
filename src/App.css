@@ -1,0 +1,78 @@
+.app {
+  background: #081016;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+  flex: auto;
+  padding: 5px 5px;
+  text-align:center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.todo {
+  width: 100%;
+  padding: 2px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  font-size: 20px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  color: #61dafb;
+}
+
+.todo-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  color: inherit; 
+}
+
+button {
+  background: #ffffff;
+  cursor: pointer;
+  border: none;
+  width: 40px;
+  height: 25px;
+  text-decoration: none; 
+}
+
+.heading-main {
+  font-size:64px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #61dafb;
+}
+
+.name{
+  font-size: 20px;
+  text-align: center;
+  color: #61dafb;
+  margin-bottom: 40px;
+}
+
+.submit-btn {
+  cursor: pointer;
+  width: 40px;
+  height: 25px;
+  background: #ffffff;
+  margin-left: 5px;
+}
+
+.checkmark {
+  color: inherit;
+}
+
+.checkmark:hover {
+  color: red;
+}
+
